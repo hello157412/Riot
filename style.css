@@ -1,0 +1,87 @@
+body
+{
+    background-size: cover;
+}
+
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+#start
+{
+    font-size: 18px;
+}
+
+#start, #number_of_objects , #start
+{
+    font-size: 18px;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color: #08466df1;
+    bottom: 0;
+    width: 100%;
+    background-color: #fffb00;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 6px 6px 6px rgb(60, 69, 13);
+    font-size: 17px;
+}
+
+h1
+{
+    font-family: 'Teko', sans-serif;
+
+}
+
+.heading
+{
+    font-size: 40px;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: 5px;
+    text-align: center;
+    background: -o-linear-gradient(45deg,#d0da09,#34e52e,#04cfea,#7a00ff);
+    background: linear-gradient(45deg,#ff8a00,#e52e71,#13ea048b,#7a00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300% 300%;
+    -webkit-animation: gradient-text 8s ease infinite;
+            animation: gradient-text 8s ease infinite;
+    
+  }
+  @-webkit-keyframes gradient-text {
+    0% {
+      background-position: 0% 50%;
+    }
+      50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes gradient-text {
+    0% {
+      background-position: 0% 50%;
+    }
+      50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+canvas
+{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.33);
+    border-radius: 20px;
+}
+
